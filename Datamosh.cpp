@@ -58,7 +58,7 @@ int kof_mosh = 50;
 			{
 
 				diff = data ^ a;
-				if (diff > 27)
+				if (diff > Sensetive)
 				{
 					kof_mosh = pixel_diff;
 					mosh_frame = DataFrame(frame_before, 1, 0);
